@@ -62,17 +62,15 @@ for (let index = 0; index < books.length; index++) {
     results.appendChild(tr);
     td1.innerText = element.bookName;
     td2.innerText = element.bookPages;
-    total = total + Number(bookPrice);
-    td3.innerText = bookPrice;
+    total = total + Number(element.bookPrice);
+    td3.innerText = element.bookPrice;
     document.getElementById('totalprice').innerText = total;
 
 
     
 }
 }
-
-
-
+loaddata();
 
 
 function getRandomArbitrary(min, max) {
