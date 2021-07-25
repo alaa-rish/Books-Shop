@@ -30,7 +30,7 @@ body {
     /* background-image: url("/img/BG-IMG.jpg");
     width:; */
 
-    background-image: url('../img/BG-IMG.jpg') no-repeat center center fixed; 
+    background: url('../img/BG-IMG.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
